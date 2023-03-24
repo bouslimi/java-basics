@@ -4,8 +4,8 @@ public class IfElse {
 
     public static void main(String[] args) {
         int n = 10;
-        //int n = 0;
-        //int n = -5;
+        // int n = 0;
+        // int n = -5;
 
         if (n == 0) {
             System.out.println("Zero!");

@@ -5,6 +5,8 @@ public class StaticFinalVariables {
     public static void main(String[] args) {
         // No need to create a new instance of the class in order to access the variable
         System.out.println(TestClass.i);
+
+        // TestClass.i = 3;  // ERROR: Cannot assign a value to final variable 'i'
     }
 
     public static class TestClass {

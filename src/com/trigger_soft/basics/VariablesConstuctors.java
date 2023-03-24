@@ -29,7 +29,8 @@ public class VariablesConstuctors {
     public static void main(String[] args) {
 
         VariablesConstuctors variablesConstuctors = new VariablesConstuctors();
-        // myClass.initialize();
+        System.out.println(variablesConstuctors.i);
+        variablesConstuctors.initialize();
         System.out.println(variablesConstuctors.i);
 
         VariablesConstuctors basicsClass2 = new VariablesConstuctors(20);

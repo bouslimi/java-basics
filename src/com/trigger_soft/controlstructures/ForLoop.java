@@ -10,7 +10,7 @@ public class ForLoop {
 
         for (int i = 0; i < 5; i++) {
             System.out.println(i);
-            if (i == 3)
+            if (i == 2)
                 break;
         }
     }
